@@ -4,7 +4,7 @@
 
 Due to the nature of songs and user activities log, it's not straightforward to query the data to analyze what songs users are listening to. 
 
-In order to perform the desired analysis, I'll complete the following requirements:
+In order to perform the desired analysis, I completed the following requirements:
 
 1. Model user activity data to optimize queries for understanding what songs users are listening to
 2. Create a Postgres database with defined fact and dimension tables
@@ -67,7 +67,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 ##Schema for Song Played Analysis
 
-Using the song and log datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
+Using the song and log datasets, I created a star schema optimized for queries on song play analysis. This includes the following tables.
 
 #### 1. Fact Table
 
