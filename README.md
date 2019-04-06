@@ -48,7 +48,7 @@ And below is an example of what a single song file, TRAABJL12903CDCF1A.json, loo
 
 ####2. Log Dataset
 
-The second dataset consists of log files in JSON format. These describes app activity logs from a music streaming app based on specified configurations.
+The second dataset consists of log files in JSON format. These describe app activity logs from a music streaming app based on specified configurations.
 
 The log files in the dataset are partitioned by year and month. 
 
