@@ -1,7 +1,6 @@
 # DROP TABLES
 
-songplay_table_drop = "drop table if exists songplay_table"
-# songplay_id_drop_sequence = "drop sequence songplay_id_sequence" 
+songplay_table_drop = "drop table if exists songplay_table" 
 user_table_drop = "drop table if exists user_table"
 song_table_drop = "drop table if exists song_table"
 artist_table_drop = "drop table if exists artist_table"
@@ -9,12 +8,7 @@ time_table_drop = "drop table if exists time_table"
 
 # CREATE TABLES
 
-#Custom Sequence
-# songplay_id_create_sequence = (""" \
-#                                 CREATE SEQUENCE songplay_id_sequence \
-#                                   start 1 \
-#                                   increment 1;""")
-#Fact Table
+
 songplay_table_create = (""" \
                         create table if not exists songplay_table \
                         (songplay_id SERIAL PRIMARY KEY, \
