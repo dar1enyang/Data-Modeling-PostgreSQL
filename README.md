@@ -120,4 +120,10 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 
 How to install and set up Postgres locally in case you want to follow along the project on your local machine. This [link](https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb) provides it for MacOs. It goes through configuring Postgres, creating users, creating databases using the psql utility.
 
-1. Run 
+Perform ETL development in `etl.ipynb` and `test.ipynb`
+
+1. Run `create_tables.py` to create database and tables 
+
+   (Alter queries if you want in `sql_queries.py`)
+
+2. Run `etl.py` to perform the complete ETL pipeline
