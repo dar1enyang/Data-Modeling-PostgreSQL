@@ -1,6 +1,6 @@
 # Data Modeling with PostgreSQL
 
-##Project Objective
+###Project Objective
 
 Due to the nature of songs and user activities log, it's not straightforward to query the data to analyze what songs users are listening to. 
 
@@ -20,9 +20,9 @@ In order to perform the desired analysis, I completed the following requirements
 
 
 
-##Explore the datasets
+###Explore the datasets
 
-####1. Song Dataset
+#####1. Song Dataset
 
 The first dataset is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
 
@@ -46,7 +46,7 @@ And below is an example of what a single song file, TRAABJL12903CDCF1A.json, loo
  "year": 0}
 ```
 
-####2. Log Dataset
+#####2. Log Dataset
 
 The second dataset consists of log files in JSON format. These describe app activity logs from a music streaming app based on specified configurations.
 
@@ -65,11 +65,11 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 
 
-##Schema for Song Played Analysis
+###Schema for Song Played Analysis
 
 Using the song and log datasets, I created a star schema optimized for queries on song play analysis. This includes the following tables.
 
-#### 1. Fact Table
+#####1. Fact Table
 
 1. songplays
 
@@ -85,7 +85,7 @@ Using the song and log datasets, I created a star schema optimized for queries o
    - *location*
    - *user_agent*
 
-#### 2. Dimension Tables
+#####2. Dimension Tables
 
 1. users - users in the app
    - *user_id*
