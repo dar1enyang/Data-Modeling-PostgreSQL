@@ -1,5 +1,5 @@
 <p align="middle">
-  <img src="https://ws3.sinaimg.cn/large/006tNc79ly1g1us82ucecj31eg0qaq4e.jpg" />
+  <img src="https://github.com/dar1enyang/vstreama/blob/master/Images/vstreama.png" />
 
 # Introduction
 
@@ -25,8 +25,8 @@ In order to answer the questions mentioned above, I have completed the following
 # Technology 
 
 <p align="middle">
-  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/PostgreSQL.png" />
-  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
+  <img src="https://github.com/dar1enyang/vstreama/blob/master/Images/PostgreSQL.png" />
+  <img src="https://github.com/dar1enyang/vstreama/blob/master/Images/Python.png" />
 
 ### Why SQL?
 
@@ -77,7 +77,7 @@ log_data/2018/11/2018-11-13-events.json
 
 And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1g1tnjyob18j316b0cltcm.jpg)
+![](https://github.com/dar1enyang/vstreama/blob/master/Images/erdplus-diagram.png)
 
 
 
