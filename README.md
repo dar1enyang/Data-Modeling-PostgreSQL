@@ -1,24 +1,32 @@
-# Data Modeling with PostgreSQL
+<p align="middle">
+  <img src="https://ws3.sinaimg.cn/large/006tNc79ly1g1us82ucecj31eg0qaq4e.jpg" />
 
-### Introduction
+# Introduction
 
-In order to answer the following questions:
+Knowing how customers interact with the platform via app or website is very important to a music streaming business. To fully derive meaning from activity logs and song metadata, it's essential to designn a data pipeline in an efficient fashion to complete the analysis answering to the following questions accordingly and iteratively.
 
-1. What songs are users listening to?
-2. What activites user spend the most time on?
+The analytics team is interested in geting a better understanding toward following questions:
 
-### Project Objective
+1. What types of songs are trending now?For what kind of audience?
+2. Engagement - describes how active users are on the application
+3. How long have users stayed on the app for each logging activity?
+
+# Project Objective
 
 The data resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in the app.
 
-In order to answer the questions mentioned above, I created a database schema and ETL pipeline for the analysis.
+In order to answer the questions mentioned above, I have completed the following tasks:
 
 1. Defined fact and dimension tables applying Star Schema optimizing queries on song play analysis
 2. Create a Postgres database with defined tables
 3. Build ETL processes according to fact and dimension tables
 4. Build an ETL pipeline that transfers datasets into tables in Postgres using Python and SQL
 
+# Technology 
 
+<p align="middle">
+  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/PostgreSQL.png" />
+  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
 
 ### Why SQL?
 
