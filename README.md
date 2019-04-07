@@ -13,8 +13,10 @@ The data resides in a directory of JSON logs on user activity on the app, as wel
 
 In order to answer the questions mentioned above, I created a database schema and ETL pipeline for the analysis.
 
-1. Create a Postgres database with defined fact and dimension tables applying Star Schema
-2. Build an ETL pipeline that transfers data into these tables in Postgres using Python and SQL
+1. Defined fact and dimension tables applying Star Schema optimizing queries on song play analysis
+2. Create a Postgres database with defined tables
+3. Build ETL processes according to fact and dimension tables
+4. Build an ETL pipeline that transfers datasets into tables in Postgres using Python and SQL
 
 
 
@@ -75,50 +77,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 Using the song and log datasets, I created a star schema optimized for queries on song play analysis. This includes the following tables.
 
-##### 1. Fact Table
-
-1. songplays
-
-   - records in log data associated with song plays i.e. records with page `NextSong`
-
-   - *songplay_id*
-   - *start_time*
-   - *user_id*
-   - *level*
-   - *song_id*
-   - *artist_id*
-   - *session_id*
-   - *location*
-   - *user_agent*
-
-##### 2. Dimension Tables
-
-1. users - users in the app
-   - *user_id*
-   - *first_name*
-   - *last_name*
-   - *gender*
-   - *level*
-2. songs - songs in music database
-   - *song_id*
-   - *title*
-   - *artist_id*
-   - *year*
-   - *duration*
-3. artists - artists in music database
-   - *artist_id*
-   - *name*
-   - *location*
-   - *lattitude*
-   - *longitude*
-4. time - timestamps of records in songplays broken down into specific units
-   - *start_time*
-   - *hour*
-   - *day*
-   - *week*
-   - *month*
-   - *year*
-   - *weekday*
+![](https://ws1.sinaimg.cn/large/006tNc79ly1g1ty4zo049j30hg0c2aax.jpg)
 
 ---
 
