@@ -4,6 +4,7 @@
 # Introduction
 
 Knowing how customers interact with the platform via app or website is very important to a music streaming business. 
+
 To fully derive meaning from activity logs and song metadata, it's essential to designn a data pipeline in an efficient fashion to complete the analysis answering to the following questions accordingly and iteratively.
 
 The analytics team is interested in geting a better understanding toward following questions:
