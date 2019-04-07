@@ -17,7 +17,7 @@ The analytics team is interested in geting a better understanding toward followi
 
 The data resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in the app.
 
-In order to answer the questions mentioned above, I have completed the following tasks:
+Throughout this project, I have completed the following tasks:
 
 1. Defined fact and dimension tables applying Star Schema optimizing queries on song play analysis
 2. Create a Postgres database with defined tables
