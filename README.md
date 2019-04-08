@@ -3,26 +3,24 @@
 
 # Introduction
 
-Knowing how customers interact with the platform via app or website is very important to a music streaming business. 
+Knowing how customers interact with the platform via app or website is very important to the music streaming business. 
 
-To fully derive meaning from activity logs and song metadata, it's essential to designn a data pipeline in an efficient fashion to complete the analysis answering to the following questions accordingly and iteratively.
+To entirely derive meaning from activity logs and song metadata, it's essential to design a data pipeline efficiently to complete the analysis answering to the following questions accordingly and iteratively.
 
-The analytics team is interested in geting a better understanding toward following questions:
+The analytics team is interested in getting a better understanding of the following questions:
 
-1. What types of songs are trending now?For what kind of audience?
+1. What types of songs are trending now? For what kind of audience?
 2. Engagement - describes how active users are on the application
 3. How long have users stayed on the app for each logging activity?
 
 # Project Objective
 
-The data resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in the app.
+The data resides in a directory of JSON logs on user activity on the app, as well as a list with JSON metadata on the songs in the app.
 
 Throughout this project, I have completed the following tasks:
 
 1. Defined fact and dimension tables applying Star Schema optimizing queries on song play analysis
-2. Create a Postgres database with defined tables
-3. Build ETL processes according to fact and dimension tables
-4. Build an ETL pipeline that transfers datasets into tables in Postgres using Python and SQL
+2. Build an ETL pipeline that transfers datasets into tables in Postgres using Python and SQL
 
 # Technology 
 
