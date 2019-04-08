@@ -77,7 +77,7 @@ log_data/2018/11/2018-11-13-events.json
 
 And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
 
-![](https://github.com/dar1enyang/vstreama/blob/master/Images/erdplus-diagram.png)
+![](https://github.com/dar1enyang/vstreama/blob/master/Images/log-data.png)
 
 
 
@@ -85,7 +85,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 Using the song and log datasets, I created a star schema optimized for queries on song play analysis. This includes the following tables.
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1g1ty4zo049j30hg0c2aax.jpg)
+![](https://github.com/dar1enyang/vstreama/blob/master/Images/erdplus-diagram.png)
 
 ---
 
