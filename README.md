@@ -15,11 +15,11 @@ The analytics team is interested in getting a better understanding of the follow
 
 # Project Objective
 
-The data resides in a directory of JSON logs on user activity on the app, as well as a list with JSON metadata on the songs in the app.
+Currently, there is no easy way to query the data to generate insights, since the data reside in a directory of JSON logs on user activity on the app, as well as a list with JSON metadata on the songs in the app.
 
 Throughout this project, I have completed the following tasks:
 
-1. Defined fact and dimension tables applying Star Schema optimizing queries on song play analysis
+1. Defined fact and dimension tables applying Star Schema to optimize queries on song play analysis
 2. Build an ETL pipeline that transfers datasets into tables in Postgres using Python and SQL
 
 # Technology 
