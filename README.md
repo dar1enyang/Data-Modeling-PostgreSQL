@@ -28,13 +28,6 @@ Throughout this project, I have completed the following tasks:
   <img src="https://github.com/dar1enyang/vstreama/blob/master/Images/PostgreSQL.png" />
   <img src="https://github.com/dar1enyang/vstreama/blob/master/Images/Python.png" />
 
-### Why SQL?
-
-- Easier to change to business requirements- perform `adhoc queries` with ease
-- Modeling the data not modeling queries
-- ACID transactions: Guarantee validity even in event of errors, power failures
-
-
 
 # Explore the datasets
 
