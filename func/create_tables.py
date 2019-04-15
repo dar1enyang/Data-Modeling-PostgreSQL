@@ -6,7 +6,7 @@ from query.sql_queries import create_table_queries, drop_table_queries
 
 def create_database():
     """
-    The funnction to create database
+    The function to create database
     
     Returns:
         cur  : Use the connection to get a cursor that will be used to execute queries.
@@ -34,7 +34,7 @@ def create_database():
 
 def drop_tables(cur, conn):
     """
-    The funnction to drop database
+    The function to drop database
     
     Parameters:
         cur  : The cursor that will be used to execute queries.
@@ -48,7 +48,7 @@ def drop_tables(cur, conn):
 
 def create_tables(cur, conn):
     """
-    The funnction to drop database
+    The function to drop database
     
     Parameters:
         cur  : The cursor that will be used to execute queries.
