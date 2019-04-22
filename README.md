@@ -6,6 +6,8 @@ The analytics people are particularly interested in understanding what songs use
 
 Currently, there is no easy way to directly query the data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
+
+
 # Project Objective
 
 Design and structure data to make it available to the others in the team. So they can make use of it easily.
@@ -15,13 +17,13 @@ Throughout this project, I have completed the following tasks:
 1. Created a Postgres database with tables designed to optimize queries on song play analysis
 2. Built an ETL pipeline that transfers data from two directories into tables in Postgres using Python and SQL
 
+
+
 # Technology 
 
 <p align="middle">
   <img src="https://ws2.sinaimg.cn/large/006tNc79ly1g2bsurr78cj306605e0t2.jpg" />
   <img src="https://ws2.sinaimg.cn/large/006tNc79ly1g2bsv06jf3j30gp05njtd.jpg" />
-
-
 
 # Explore the dataset
 
