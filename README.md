@@ -66,15 +66,13 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 ![](https://ws3.sinaimg.cn/large/006tNc79ly1g2bsvkkb18j316d0cstbp.jpg)
 
+# Methodology 
 
-
-### Schema for Song Played Analysis
-
-Using the song and log datasets, I created a star schema optimized for queries on song play analysis. This includes the following tables.
+### Star Schema Design - Optimized for queries on song play analysis
 
 ![](https://ws2.sinaimg.cn/large/006tNc79ly1g2bsvrjxy1j30hg0c2aax.jpg)
 
----
+
 
 # How to use this project
 
