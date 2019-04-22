@@ -1,32 +1,26 @@
-<p align="middle">
-  <img src="https://github.com/dar1enyang/vstreama/blob/master/Images/vstreama.png" />
-
 # Introduction
 
 Knowing how customers interact with the platform via app or website is very important to the music streaming business. 
 
-To entirely derive meaning from activity logs and song metadata, it's essential to design a data pipeline efficiently to complete the analysis answering to the following questions accordingly and iteratively.
+The analytics people are particularly interested in understanding what songs users are listening to.
 
-The analytics team is interested in getting a better understanding of the following questions:
-
-1. What types of songs are trending now? For what kind of audience?
-2. Engagement - describes how active users are on the application
-3. How long have users stayed on the app for each logging activity?
+Currently, there is no easy way to directly query the data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
 # Project Objective
 
-Currently, there is no easy way to query the data to generate insights, since the data reside in a directory of JSON logs on user activity on the app, as well as a list with JSON metadata on the songs in the app.
+Design and structure data to make it available to the others in the team. So they can make use of it easily.
 
 Throughout this project, I have completed the following tasks:
 
-1. Defined fact and dimension tables applying Star Schema to optimize queries on song play analysis
-2. Build an ETL pipeline that transfers datasets into tables in Postgres using Python and SQL
+1. Create a Postgres database with tables designed to optimize queries on song play analysis
+2. Build an ETL pipeline that transfers data from two directories into tables in Postgres using Python and SQL
 
 # Technology 
 
 <p align="middle">
-  <img src="https://github.com/dar1enyang/vstreama/blob/master/Images/PostgreSQL.png" />
-  <img src="https://github.com/dar1enyang/vstreama/blob/master/Images/Python.png" />
+  <img src="https://ws2.sinaimg.cn/large/006tNc79ly1g2bsurr78cj306605e0t2.jpg" />
+  <img src="https://ws2.sinaimg.cn/large/006tNc79ly1g2bsv06jf3j30gp05njtd.jpg" />
+
 
 
 # Explore the datasets
@@ -70,7 +64,7 @@ log_data/2018/11/2018-11-13-events.json
 
 And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
 
-![](https://github.com/dar1enyang/vstreama/blob/master/Images/log-data.png)
+![](https://ws3.sinaimg.cn/large/006tNc79ly1g2bsvkkb18j316d0cstbp.jpg)
 
 
 
@@ -78,13 +72,13 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 Using the song and log datasets, I created a star schema optimized for queries on song play analysis. This includes the following tables.
 
-![](https://github.com/dar1enyang/vstreama/blob/master/Images/erdplus-diagram.png)
+![](https://ws2.sinaimg.cn/large/006tNc79ly1g2bsvrjxy1j30hg0c2aax.jpg)
 
 ---
 
 # How to use this project
 
-How to install and set up Postgres locally in case you want to follow along the project on your local machine. This [link](https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb) provides it for MacOs. It goes through configuring Postgres, creating users, creating databases using the psql utility.
+How to install and set up Postgres locally in case you want to follow along with the project on your local machine. This [link](https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb) provides it for MacOs. It goes through configuring Postgres, creating users, creating databases using the psql utility.
 
 Perform ETL development in `etl.ipynb` and `test.ipynb`
 
