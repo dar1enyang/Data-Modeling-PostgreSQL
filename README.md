@@ -12,8 +12,8 @@ Design and structure data to make it available to the others in the team. So the
 
 Throughout this project, I have completed the following tasks:
 
-1. Create a Postgres database with tables designed to optimize queries on song play analysis
-2. Build an ETL pipeline that transfers data from two directories into tables in Postgres using Python and SQL
+1. Created a Postgres database with tables designed to optimize queries on song play analysis
+2. Built an ETL pipeline that transfers data from two directories into tables in Postgres using Python and SQL
 
 # Technology 
 
@@ -23,7 +23,7 @@ Throughout this project, I have completed the following tasks:
 
 
 
-# Explore the datasets
+# Explore the dataset
 
 ##### 1. Song Dataset
 
