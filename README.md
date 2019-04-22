@@ -29,7 +29,7 @@ Throughout this project, I have completed the following tasks:
 
 ##### 1. Song Dataset
 
-The first dataset is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
+The first dataset is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are file paths to two files in this dataset.
 
 ```txt
 song_data/A/B/C/TRABCEI128F424C983.json
@@ -57,7 +57,7 @@ The second dataset consists of log files in JSON format. These describe app acti
 
 The log files in the dataset are partitioned by year and month. 
 
-For example, here are filepaths to two files in this dataset.
+For example, here are file paths to two files in this dataset.
 
 ```txt
 log_data/2018/11/2018-11-12-events.json
