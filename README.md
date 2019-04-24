@@ -114,11 +114,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 
 
-# How to use this project
-
-How to install and set up Postgres locally in case you want to follow along with the project on your local machine. This [link](https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb) provides it for MacOs. It goes through configuring Postgres, creating users, creating databases using the psql utility.
-
-## Go Directories
+# Go Directories
 
 ### `/func`
 
@@ -133,6 +129,10 @@ All queries for this project
 ### `/data`
 
 All data for this project
+
+# How to use this project
+
+How to install and set up Postgres locally in case you want to follow along with the project on your local machine. This [link](https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb) provides it for MacOs. It goes through configuring Postgres, creating users, creating databases using the psql utility.
 
 1. Run `func/create_tables.py` to create database and tables 
 
