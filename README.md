@@ -120,8 +120,8 @@ How to install and set up Postgres locally in case you want to follow along with
 
 Perform ETL development in `etl.ipynb` and `test.ipynb`
 
-1. Run `create_tables.py` to create database and tables 
+1. Run `func/create_tables.py` to create database and tables 
 
-   (Alter queries if you want in `sql_queries.py`)
+   (Alter queries if you want in `query/sql_queries.py`)
 
-2. Run `etl.py` to perform the complete ETL pipeline
+2. Run `query/etl.py` to perform the complete ETL pipeline
